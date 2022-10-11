@@ -1,0 +1,29 @@
+table tr td {
+  height: 30px;
+  width: 30px;
+  border: 1px solid grey;
+  text-align: center;
+}
+.bomb {
+  background-image: url('bomb.jpg');
+  background-size: 30px 30px;
+}
+.disclosed {
+  background-color: white;
+}
+.hidden {
+  background-color: lightgrey;
+}
+.cursor-flag {
+  cursor:url('flag.gif'), auto;
+}
+.cursor-pointer {
+  cursor:pointer;
+}
+.flag {
+  background-image: url('flag.png');
+  background-size: 30px 30px;
+}
+.hide{
+  display:none;
+}
